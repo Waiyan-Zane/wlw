@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: #5f9ea0;
+    max-width: 800px;
+    border-radius: 20px;
+}
+.header ul{
+    display: flex;
+    background-color: aqua;
+    margin: 0;
+    border-radius: 10px;
+    
+}
+.header li{
+    list-style: none;
+    padding: 30px;
+}
+.header li a{
+    text-decoration: none;
+    
+
+}
+.header li:hover{
+    background-color: bisque;
+    transition: all ease-in-out 0.5s;
+}
+.wlw{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    background-color: aquamarine;
+    max-width: 450px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    max-height: 200px;
+}
+.wlw img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+    margin: 20px;
+}
+.wyk{
+    background-color: aquamarine;
+    max-width: 450px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    max-height: 200px;
+    padding: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit:contain;
+    box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+    margin: 20px;
+}
+.f-body p{
+    max-width: 800px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .header ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .wlw {
+      flex-direction: column;
+    }
+  
+    .right, img {
+      width: 100%;
+    }
+  }
+  .wlw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
